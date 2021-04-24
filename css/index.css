@@ -3,9 +3,12 @@ html {
 }
 
 body {
-	background-color: #000000;
-	background-image: url("img/background.png");
+	background-color:rgb(30, 30, 30);
+	background-color:rgba(30, 30, 30, 1);
+	background-image: url('img/backdrop.png');
 	background-repeat: repeat;
+	background-attachment: fixed;
+	background-size: cover;
 	font-family: Arial, Helvetica, sans-serif;
 	color:#FAE78B;
 }
@@ -21,9 +24,12 @@ h1 {
 	margin: auto;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	width:1440px;
+	width:85%;
 	font-family: Arial, Helvetica, sans-serif;
-	background: rgba(59, 6, 35, 0.95) url("img/background.png") left top repeat/* fixed*/;	
+	background-color: rgba(59, 6, 35, 0.95); 
+	background-image: url("img/background.png");
+	background-repeat: repeat;
+	background-attachment: fixed;
 }
 
 .adbox {
@@ -38,11 +44,12 @@ h1 {
 
 #nabar ul li{
     display:inline;
-    font-weight:bolder;
-    font-size:35px !important;
-    padding-left:5px;
-    padding-right:5px;
+    font-weight:800;
+    font-size:40px !important;
+    padding-left:15px;
+    padding-right:15px;
     vertical-align:middle;
+	text-shadow:2px 2px 1px #755c17;
 }
 
 #navigation {
@@ -52,7 +59,6 @@ h1 {
     vertical-align:middle;
     font-size:25px;
     font-family:agency;
-	font-weight:bolder!important;
 	word-spacing: 30px;
     background-color:rgb(48, 5, 28);
     background-color:rgba(48, 5, 28, 1);
