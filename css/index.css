@@ -5,7 +5,7 @@ html {
 body {
 	background-color:rgb(30, 30, 30);
 	background-color:rgba(30, 30, 30, 1);
-	background-image: url('img/backdrop.png');
+	background-image: url(../img/backdrop.png);
 	background-repeat: repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -27,7 +27,7 @@ h1 {
 	width:85%;
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: rgba(59, 6, 35, 0.95); 
-	background-image: url("img/background.png");
+	background-image: url(../img/background.png);
 	background-repeat: repeat;
 	background-attachment: fixed;
 }
@@ -105,7 +105,7 @@ a:active {
 	row-gap: <line-size>;
 	width: 100%;
 	background-color: #000000;
-	background: rgba(59, 6, 35, 0.95) url("img/background.png") left top repeat fixed;
+	background: rgba(59, 6, 35, 0.95) url(../img/background.png) left top repeat fixed;
 }
 
 @font-face {
@@ -113,11 +113,24 @@ a:active {
   src: url(font/agencyb.ttf);
 }
 
-#comic {
+#thumbc {
 	grid-column-start: 1;
 	grid-column-end: 1;
 	grid-row-start: 2;
 	grid-row-end: 2;
+	display: table;
+	text-align: center;
+	vertical-align:top;
+	border: 0px;
+	cell-spacing: 5px;
+}
+
+#thumbrow {
+	display: table-column;
+}
+
+#thumbcel {
+	display: table-cell;
 }
 
 #sezbox {
