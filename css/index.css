@@ -130,14 +130,14 @@ a:active {
 #thumbc {
 	grid-column-start: 1;
 	grid-column-end: 1;
-	grid-row-start: 2;
-	grid-row-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 1;
 	display: table;
 	text-align: center;
 	vertical-align:top;
 	border: 0px;
 	cell-spacing: 5px;
-	width: "auto";
+	width: 1200px;
 	margin: "auto";
 }
 
@@ -156,7 +156,7 @@ a:active {
 	vertical-align: top;
 }
 
-#sezbox {
+/*#sezbox {
 	grid-column-start: 1;
 	grid-column-end: 1;
 	grid-row-start: 1;
@@ -181,6 +181,7 @@ a:active {
 #sezbox a:visited { color: #a2105c; }
 #sezbox a:hover { color: #a2105c; }
 #sezbox a:active { color: #a2105c; }
+*/
 
 #header {
 	grid-column-start: 2;
