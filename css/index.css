@@ -137,7 +137,7 @@ a:active {
 	vertical-align:top;
 	border: 0px;
 	cell-spacing: 5px;
-	width: 1200px;
+	min-width: 1000px;
 	margin: "auto";
 }
 
@@ -148,14 +148,17 @@ a:active {
 
 .thumbcel {
 	display: table-cell;
-	width: auto;
+	/*width: auto;*/
 	color: #FAE78B;
 	font-family: agency;
     font-weight:800;
     font-size:40px !important;	
 	vertical-align: top;
 }
-
+ .thumbcel img {
+	 min-width:200px;
+ }
+ 
 /*#sezbox {
 	grid-column-start: 1;
 	grid-column-end: 1;
