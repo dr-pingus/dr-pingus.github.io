@@ -208,4 +208,15 @@ a:active {
 	padding-top:10px;
 	padding-bottom:10px;
 }
-	
+
+#gallery {
+	display: block;
+	margin: auto;
+	width: 90%;
+	align:"left"
+}
+
+#gallery a:link { color: #fcf3c7; font-weight:bolder;}
+#gallery a:visited { color: #fcf3c7; }
+#gallery a:hover { color: #fcf3c7; }
+#gallery a:active { color: #FAE78B; }
