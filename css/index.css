@@ -75,13 +75,15 @@ h1 {
 }
 
 a:link{
-	color: #FAE78B;
+	color: #faeca7;
 	background-color: transparent;
 	text-decoration: none;
+	font-weight:bolder;
 	font-size:inherit;
 }
+
 a:visited {
-  color: #FAE78B;
+  color: #faeca7;
   background-color: transparent;
   text-decoration: none;
   font-size:inherit;
@@ -209,14 +211,8 @@ a:active {
 	padding-bottom:10px;
 }
 
-#gallery {
-	display: block;
+.gallery {
 	margin: auto;
-	width: 90%;
-	align:"left"
+	width: 1500px;
+	background-color="#FAE78B";
 }
-
-#gallery a:link { color: #fcf3c7; font-weight:bolder;}
-#gallery a:visited { color: #fcf3c7; }
-#gallery a:hover { color: #fcf3c7; }
-#gallery a:active { color: #FAE78B; }
