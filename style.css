@@ -9,8 +9,19 @@ body, div, main, section, article {
 
 /* universal background color */
 body {
-  background-color: #DA5437; 
+margin: 0;
+padding:0;
+min-height: 100%;
+min-width: 100%;
+background-color:rgb(30, 30, 30);
+background-color:rgba(30, 30, 30, 1);
+background-image: url('img/backdrop2.png');
+background-repeat: repeat;
+background-attachment: fixed;
+background-size: cover;
+text-align:center;
 }
+
 
 /* header image */
 header img {
@@ -27,15 +38,19 @@ header img {
 
 /*FONTS*/
 
+@font-face {
+	font-family: 'Share Tech', sans-serif;
+}
+
 /* header font */
 #showComic, header, h1, h2, h3, h4, h5 {
-  font-family: 'Cherry Cream Soda', cursive;
+	font-family: 'Share Tech', sans-serif;
 }
 
 /* body font */
 .subPage p, footer, #authorNotes, .archiveTable {
-  font-family: 'Open Sans', sans-serif;
-  font-size: large;
+	font-family: 'Share Tech', sans-serif;
+	font-size: large;
 }
 
 /* STYLING FOR SUBPAGES (about, characters, etc) */
@@ -45,8 +60,9 @@ header img {
 .subPage {
   width: 900px;
   max-width: 98%;
-  background-color: #ffffff;
-  outline: 3px solid #000000;
+  background-color: #30051C;
+  color: #FAE78B !important;
+  /*outline: 3px solid #000000;*/
   margin: auto;
   margin-bottom: 10px;
   padding: 0px 12px 12px;
@@ -77,22 +93,35 @@ header img {
 
 /* link colors */
 a {
-      color: #000000;
+	color: #FAE78B !important;
+	text-decoration: none;
+	font-weight: 700;
     }
 
 a:hover {
-      color: #DA5437;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: 700;	
     }
 
 /* HEADER */
 header #nav {
-  background-color: #ffffff;
-  outline: 3px solid #000000;
-  font-size: 20px;
-  width: 98%;
+  background-color: #30051C;
+  color: #FAE78B !important;
+  /*outline: 0px solid #000000;*/
+  font-size: 42px;
+  font-weight: 700;
+  width: 75%;
   margin: auto;
 }
-
+#nav a {
+	color: #FAE78B;
+	text-decoration: none;
+}
+#nav a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
 /* HOMEPAGE */
 
 /* style nav button images */
@@ -103,20 +132,19 @@ header #nav {
   justify-content: center;
 }
 .comicNav img {
-  width: 80px;
+  width: 150px;
   max-width: 98%;
   padding-right: 30px;
 }
-
 /* style comic page image */
 .comicPage img {
-  width: 900px;
+  width: 1200px;
   max-width: 98%;
 }
 
 /* style author notes */
 #authorNotes {
-  background-color:#ffffff;
+  background-color:#FAE78B;
   outline: 3px solid #000000;
   margin: auto;
   padding: 3px;
@@ -146,7 +174,7 @@ header #nav {
 
 /* FOOTER */
 footer {
-  color: #421a1a;
+  color: #FAE78B;
   margin-top: 12px;
   margin-bottom: 15px;
   float: left;
@@ -159,11 +187,11 @@ footer p {
 }
 
 footer a {
-  color: #c8d32b
+  color: #FFFFFF
 }
 
 footer a:hover {
-  color: #868d26
+  color: #FAE78B
 }
 
 /* take away margins from the edges of the screen */

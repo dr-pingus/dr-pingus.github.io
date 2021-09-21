@@ -9,7 +9,7 @@ let pg = Number(findGetParameter("pg")); //make "pg" mean the current page numbe
 ////////////////////////
 
 //REALLY IMPORTANT ONES
-const maxpg = 14; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
+const maxpg = 284; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
 //MUST UPDATE NUMBER MANUALLY EVERY TIME YOU ADD A NEW PAGE or else it wont display the most recent page
 
 // COMIC PAGE SETTINGS
@@ -39,8 +39,9 @@ if (pg == 0) {pg = maxpg;} //display MOST RECENT COMIC when the webpage is loade
 */
 //Note: the formatting is important! The whole thing won't show up if you forget to include the commas or curly braces in the right place.
 const pgData = [
+/*
     {
-        pgNum: 1, //what page number it is
+       pgNum: 1, //what page number it is
         title: "The First Page Title", //the title of the page (leaving this blank will default it to "Page X")
         date: "March 16, 2021", //the date on which the page was posted (mainly for the archive)
         altText: "Here's some alt text!", //the alt text (mouse over text) for this particular comic. put nothing inbetween the quotes for no alt text
@@ -50,6 +51,7 @@ const pgData = [
             <p>You can even use whatever html tags you want in here to format it, the script called on your html page should spit out anything you type between these backticks.</p>
             `
     },
+
     {
         pgNum: 2,
         title: "The Second Page Title",
@@ -100,7 +102,8 @@ const pgData = [
         authorNotes: `
             <p>Sed lectus magna, dignissim eu sapien quis, euismod pulvinar diam. In odio massa, auctor blandit dolor id, varius ultricies lacus. Suspendisse sed libero vel leo dictum consectetur. In fringilla elit sit amet placerat varius. Duis vel lacus ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisi. Proin eleifend metus eu ex elementum venenatis. Curabitur sodales, ipsum placerat ornare convallis, sem eros convallis felis, vel efficitur erat ante id diam.</p>
             `
-    },
+    },*/
+
 ];
 
 //below is a function you dont rly need to mess with but if you're more experienced with js you can
