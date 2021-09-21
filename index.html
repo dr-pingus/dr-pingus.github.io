@@ -17,9 +17,20 @@
 	
 	<!--favicon-->
 	<link rel="shortcut icon" href="img/artificefavicon.gif">
+	<script>
+		(function(ac) {
+		  var d = document, s = 'script', id = 'adplugg-adjs';
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id; js.async = 1;
+		  js.src = '//www.adplugg.com/serve/' + ac + '/js/1.1/ad.js';
+		  fjs.parentNode.insertBefore(js, fjs);
+		}('A48219238'));
+	</script>	
   </head>
   
   <body>
+  <div class="adplugg-tag" data-adplugg-zone="top_banner"></div><br>
   <div align="center">
     <!-- header that has the logo image and top page navigation -->
     <script src="js/comic_header.js"></script>
@@ -44,6 +55,7 @@
     <h2>Author Notes</h2>
     <script>writeAuthorNotes()</script>
   </div>-->
+  <br><div class="adplugg-tag" data-adplugg-zone="bottom_banner"></div>
   </body>
     <script src="js/comic_footer.js"></script>
 </html>
