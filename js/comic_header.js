@@ -10,6 +10,7 @@ document.write(`
             <!--<a href="about.html">ABOUT</a> |
             <a href="characters.html">CHARACTERS</a>-->
 			<a href="https://patreon.com/artifly">PATREON</a>
+			<a href="https://artifly.cfw.me">MAIN SITE</a>
         </div>
     </header>
 `);
