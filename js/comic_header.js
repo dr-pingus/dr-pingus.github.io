@@ -2,9 +2,6 @@
 //There are much better methods of handling the header out there but you can stick with this one if you want
 document.write(`
     <header align="center">
-		<div class="adbox">
-			<script type="text/javascript" src="https://www.comicad.net/r/TgiwSbmj0c/"></script>
-		</div>
         <a href="index.html"><img src="./img/logo.png" alt="" /></a> 
 
         <div id="nav">
