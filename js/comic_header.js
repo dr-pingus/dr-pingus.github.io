@@ -10,7 +10,8 @@ document.write(`
             <!--<a href="about.html">ABOUT</a> |
             <a href="characters.html">CHARACTERS</a>-->
 			<a href="https://patreon.com/artifly">PATREON</a> | 
-			<a href="https://artifice.cf/feed.rss">SUBSCRIBE</a>
+			<a href="https://artifice.cf/feed.rss">SUBSCRIBE</a> |
+			<a href="https://www.topwebcomics.com/vote/25875">VOTE</a>
         </div>
     </header>
 `);
