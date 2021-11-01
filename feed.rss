@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <generator>RSS Builder by B!Soft</generator>
+    <title>The Artifice Flies Again!</title>
+    <link>https://artifice.cf</link>
+    <description>Issue 13, page 3</description>
+    <language>en-us</language>
+    <copyright>2019-2021 Dr.P.</copyright>
+    <image>
+      <title>The Artifice Flies Again!</title>
+      <link>https://artifice.cf</link>
+      <url>http://artifice.cf/img/comics/pg313.jpg</url>
+      <width>1400</width>
+      <height>2100</height>
+    </image>
+  </channel>
+</rss>
