@@ -89,6 +89,9 @@ header img {
 /* specific to Characters */
 .charTable, .charTable td { 
   width: 100%;
+  font-family: 'Share Tech', sans-serif;
+  font-size: 10px;
+  background-color: #000000;
 }
 
 /* link colors */
