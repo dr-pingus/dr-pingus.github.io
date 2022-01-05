@@ -231,3 +231,38 @@ html, body {
     white-space:normal!important;
 	font-family: 'Share Tech', sans-serif;
 }
+
+#notice {
+    display:inline-block;
+    max-width: 700px;
+    color: rgb(48, 5, 28);
+    font-size: 18px;
+    line-height: 20px;
+    text-align:center;
+    background-color: #fae78b;
+	/*rgb (250, 231, 139);
+    background-color:rgba (250, 231, 139, 1);*/
+    padding:4px;
+    margin:1px;
+    white-space:normal!important;
+	font-family: 'Share Tech', sans-serif;
+	border-style: solid;
+}
+
+#notice a:link {
+    color: #540931!important;
+    font-size: 18px;
+    line-height: 20px;	
+}
+
+#notice a:hover {
+    color: #6b2149!important;
+    font-size: 18px;
+    line-height: 20px;	
+}
+
+#notice a:visited {
+	color: #000000!important;
+    font-size: 18px;
+    line-height: 20px;	
+}
