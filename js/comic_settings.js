@@ -92,7 +92,7 @@ const pgData = [
         authorNotes: `
             <p>Sed lectus magna, dignissim eu sapien quis, euismod pulvinar diam. In odio massa, auctor blandit dolor id, varius ultricies lacus. Suspendisse sed libero vel leo dictum consectetur. In fringilla elit sit amet placerat varius. Duis vel lacus ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisi. Proin eleifend metus eu ex elementum venenatis. Curabitur sodales, ipsum placerat ornare convallis, sem eros convallis felis, vel efficitur erat ante id diam.</p>
             `
-    },*/
+    },
         {
         pgNum: 334,
         title: `Unnamed pages won't display a title, and they'll show up as "Page [X]" when listed in the archive`,
@@ -102,7 +102,7 @@ const pgData = [
         authorNotes: `
             <p>So I started Issue #13 back in October, but it's finally done. I should really pick the pace up, but I'm probably going to slack off even harder now.</p>
             `
-    },
+    },*/
 
 ];
 
