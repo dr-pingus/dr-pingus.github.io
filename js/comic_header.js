@@ -14,6 +14,7 @@ document.write(`
 			<!--<a href="https://artifice.cf/feed.rss">SUBSCRIBE</a> |-->
 			&#8226;<a href="https://www.topwebcomics.com/vote/25875">VOTE</a>&#8226;
 			&#8226;<a href="https://twitter.com/artiflycomic/">TWITTER</a>&#8226;
+			&#8226;<a href="https://www.deviantart.com/pang-md">DEVIANTART</a>&#8226;
         </div>
     </header>
 `);
