@@ -11,9 +11,9 @@ document.write(`
             <!--&#8226;<a href="characters.html">CHARACTERS</a>&#8226;
 			&#8226;<a href="https://patreon.com/artifly">PATREON</a>&#8226;
 			&#8226;<a href="https://www.patreon.com/posts/56257753">GALLERY</a>&#8226;-->	
-			<!--<a href="https://artifice.cf/feed.rss">SUBSCRIBE</a> |-->
 			&#8226;<a href="https://www.topwebcomics.com/vote/25875">VOTE</a>&#8226;
 			&#8226;<a href="https://www.deviantart.com/pang-md">DEVIANTART</a>&#8226;
+			&#8226;<a href="https://corteximplant.com/@artifly">MASTODON</a>&#8226;
         </div>
     </header>
 `);
